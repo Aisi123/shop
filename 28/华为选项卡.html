@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>华为选项卡</title>
+		<style>
+		*{margin: 0;padding: 0;}
+			#select_Card{width:240px ;height:436px ;background-color:#efeff1;position: absolute;z-index: 100;left: 112px;top:188px ;}
+			#lef1{width:240px ;height: 436px;background-color: white;float: left;}
+			.dll{width:100% ;height:48px;padding-top: 10px;margin-top:5px ;}
+		    #lef1 dl:first-child{margin-top: 0;}		    
+		    .dll a{margin-right:10px;text-decoration: none;color: gray;}
+		    .dll a:hover{color: red;text-decoration: underline;}
+		    .dtt1{margin-left: 10px;}
+		    .dtt1 a{font-weight: bold;color: black;font-size: 16px;}
+		    .ddd1{font-size: 12px;margin-left: 10px;margin-top: 8px;}
+		    .aac{display: inline-block;float: left;margin-left: 15px;width: 200px;height: 20px;}
+		</style>
+	</head>
+	<body>
+		<div id='select_Card'>
+			<div id='lef1'></div>
+		</div>
+	</body>
+	<script>
+	var arr=[
+	{'dtt':'手机','ddd1':['荣耀','荣耀畅玩','华为 Mate/P系列'],'lianjie':['荣耀','荣耀畅玩','华为 Mate/P系列','华为J/Y系列','运营商合约'],
+	      	'frameset':['推荐商品','以旧换新','荣耀 Note8','华为 Mate8','荣耀畅玩5X']},
+	{'dtt':'平板&穿戴','ddd1':['平板电脑','手环','手表'],'lianjie':['平板电脑','手环','手表'],
+			'frameset':['推荐商品','荣耀平板','HUAWEI WATCH','荣耀手环zero']},
+	{'dtt':'笔记本电脑','ddd1':['MateBook','扩展坞','触屏笔'],'lianjie':['MateBook','扩展坞','触屏笔','二合一键盘']},
+	{'dtt':'智能家居','ddd1':['子母路由','电视盒子','路由器'],'lianjie':['子母路由','电视盒子','路由器','电力猫','随行wifi'],
+			'frameset':['推荐商品','荣耀路由Pro 游戏版','荣耀盒子Pro','荣耀路由']},
+	{'dtt':'专属配件','ddd1':['保护壳','保护套','贴膜'],'lianjie':['保护壳','保护套','贴膜','盒子专属佩带','表带','电容笔'],
+			'frameset':['推荐商品','荣耀 圈铁耳机 ','荣耀小口哨','耐翔 蜂巢 蓝牙耳机']},
+	{'dtt':'通用配件','ddd1':['耳机','音箱','移动电源'],'lianjie':['耳机','音箱','移动电源','自拍杆','充电器/线材','U盘/存储卡',
+			'支架','摄像机/镜头','硬件','智能硬件','生活周边'],'frameset':['推荐商品','小天鹅蓝牙音箱']},
+	{'dtt':'应用市场','ddd1':['手机游戏','手机应用'],'lianjie':['手机游戏','手机应用']}
+	]
+	var selc=document.getElementById('select_Card');
+	var lef1=document.getElementById('lef1')
+		for(var i=0;i<7;i++){
+			var dll=document.createElement('dl');
+			dll.className='dll';
+			lef1.appendChild(dll);
+			
+			var  dtt=document.createElement('dt');
+			dll.appendChild(dtt);
+			dtt.className='dtt1';
+			var aab=document.createElement('a');
+			dtt.appendChild(aab);
+			aab.href="#";
+			aab.innerHTML=arr[i].dtt
+			
+			
+			var ddd=document.createElement('dd');
+			dll.appendChild(ddd);
+			ddd.className='ddd1';
+			for(var j=0;j<arr[i].ddd1.length;j++){
+				var aaa=document.createElement('a');
+				aaa.innerHTML=arr[i].ddd1[j];
+				aaa.href="#";
+				ddd.appendChild(aaa);
+			}		    
+		}
+		
+		var dlll=document.getElementsByTagName('dl');
+		
+		selc.onmouseout=function(eve){
+			if(selc.style.width=='480px')
+					if(event.clientX>getX(selc)+selc.clientWidth|| event.clientY<getY(selc) || event.clientY>getY(selc)+selc.clientHeight){
+						selc.style.width='240px';
+					}
+				}
+				
+				
+		
+		for(var s=0;s<dlll.length;s++){
+			dlll[s]['index']=s;
+			
+			dlll[s].onmouseover=function(){
+				for(var a=0;a<dlll.length;a++){
+					dlll[a].style.backgroundColor='white';
+				}
+				this.style.backgroundColor="#efeff1";
+				selc.style.width='480px';
+				
+				for(var b=0;b<arr[this.index].lianjie.length;b++){
+					var aac=document.createElement('a');
+					aac.innerHTML=arr[this.index].lianjie[b];
+					aac.className='aac';
+					selc.appendChild(aac);
+					
+				}
+				
+				
+				
+				
+				
+			}
+			
+			dlll[s].onmouseout=function(event){
+				if(event.clientX<getX(selc)||event.clientY<getY(selc)||event.clientY>getY(selc)+selc.clientHeight){
+					selc.style.width='240px';
+					if(selc.children.length>1){
+						for(var c=1;c<selc.children.length;c++){
+							selc.removeChild(selc.children[c]);
+						}
+					}
+					 
+				}
+			}
+			
+		}
+		
+		
+		function getX(el){
+			var x=0;
+			while(el){
+				x+=el.offsetLeft;
+				el=el.offsetParent;
+			}
+			return x;
+		}
+		function getY(el){
+			var y=0;
+			while(el){
+				y+=el.offsetTop;
+				el=el.offsetParent;
+			}
+			return y;
+		}
+		
+	</script>
+</html>

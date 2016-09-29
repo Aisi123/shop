@@ -1,0 +1,25 @@
+{
+  "_data": [
+    {
+      "dt": "../img/homepage/laptop1.png",
+      "a": "#",
+      "des": "本该如此",
+      "favorable": "开启时尚新商务",
+      "price": "￥6688"
+    },
+    {
+      "dt": "../img/homepage/laptop2.png",
+      "a": "#",
+      "des": " HUAWEI MatePen ",
+      "favorable": "触控笔 灵活输入 自由书写",
+      "price": "￥488"
+    },
+    {
+      "dt": "../img/homepage/laptop3.png",
+      "a": "#",
+      "des": "HUAWEI MateDock ",
+      "favorable": " 轻松扩展 多面兼容",
+      "price": "￥588"
+    }
+  ]
+}

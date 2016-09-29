@@ -1,0 +1,50 @@
+.wrap{width:1200px;margin:0 auto;}
+.f12{font-size: 12px;}
+/*----------------------top-----------------------------------------------------*/
+#top{width:100%;height:29px;height:29px;background:#fafafa;}
+#top .wrap #ul1{width:450px;height:29px;background:#fafafa;float: left;}
+#top .wrap #ul1 li{float: left;padding: 0 10px;line-height: 29px;background: url(../img/homepage/bg1.png) no-repeat right center;}
+#top .wrap #ul1 li a{color:#caa5a5;}
+#top .wrap #ul1 li a:hover{color: red;}
+#top .wrap #ul1 .first {padding-left: 0;}
+#top .wrap #ul1 .last{background: none;}
+#top .wrap #ul1 .sele{width:63px;background: none;position: relative;}
+#top .wrap #ul1 .sele img{position: absolute;top:9px;right:0;}
+#top .wrap #ul1 .sele p{position: relative;}
+#top .wrap #ul1 .sele p img{position: absolute;top:12px;}
+#top .wrap #ul1 .sele div{width: 63px;overflow: hidden;background:#fff;position: absolute;left:0;padding:0 10px;top:29px;display: none;}
+#top .wrap #ul1 .sele div span{display: block;line-height: 20px;}
+#top .wrap #ul2 a{color:#caa5a5; }
+#top .wrap #ul2	a:hover{color: red;}
+#top .wrap #ul2{width:375px;height:29px;float: right;}
+#top .wrap #ul2 li{float: left;padding: 0 10px;line-height: 29px;background: url(../img/homepage/bg1.png) no-repeat right center;}
+#top .wrap #ul2 .last{width: 65px;background: none;position: relative;}
+#top .wrap #ul2 .last p{position: relative;}
+#top .wrap #ul2 .last p img{position: absolute;top:12px;right:0;}
+#top .wrap #ul2 .last div{width: 65px;height:0;overflow: hidden;background:#fff;position: absolute;left:0;padding:0 10px;}
+#top .wrap #ul2 .last div span{display: block;line-height: 25px;}
+/*----------------------header-----------------------------------------------------*/
+#header{width: 100%;height:118px;}
+#header .wrap{width:1200px;height:118px;}
+#header .wrap .left{width:345px;height:75px;padding-top:43px;float: left;} 
+#header .wrap .right{width:574px;height:34px;padding-top:36px;float:right;} 
+#header .wrap .right .tli{width:574px;height:34px;background-image: url(../img/shopcar/shop.png);}
+/*----------------------main-----------------------------------------------------*/
+#main{width:100%;height:416px;}
+#main .wrap{width:1200px;height:416px;}
+#main .wrap .top{width:1198px;height:31px;background:#f7f7f7;line-height:31px;color: #333;font-size: 12px;border: 1px solid #dedede}
+#main .wrap .top input{margin:10px 0 0 10px;}
+#main .wrap .top .s1{margin-left: 318px;}
+#main .wrap .top .s2{margin-left: 346px;}
+#main .wrap .top .s3{margin-left: 108px;}
+#main .wrap .top .s4{margin-left: 98px;}
+#main .wrap .top .s5{margin-left: 80px;}
+#main .wrap .center{width:1198px;height:100px;position: relative;}
+#main .wrap .center .check{position:absolute;top:43px;left:12px;}
+#main .wrap .center #goodsTitle{position: absolute;top:22px;left:130px;width:400px;height:30px;color: #335493;font-size: 12px;}
+#main .wrap .center #goodsTitle a{color: #333;font-size:12px;}
+#main .wrap .center #goodsTitle a:hover{color: red;text-decoration: underline;}
+#main .wrap .center #goodsPrice{position: absolute;top:30px;left:750px;}
+#main .wrap .center  #lookCar{position: absolute;top:30px;left:990px;}
+#main .wrap .center  span{position: absolute;top:30px;left:990px;}
+#main .wrap .center #goodsPic{position: absolute;top:20px;left:42px;}

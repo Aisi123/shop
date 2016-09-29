@@ -1,0 +1,53 @@
+{
+  "_data": [
+    {
+      "dt": "../img/prefecture/furn1.png",
+      "a": "#",
+      "des": "信号覆盖无忧 ",
+      "favorable": "双WIFI覆盖 穿墙稳定",
+      "price": "￥599"
+    },
+    {
+      "dt": "../img/prefecture/furn2.png",
+      "a": "#",
+      "des": "华为盒子",
+      "favorable": " 增强版 ",
+      "price": "￥389"
+    },
+    {
+      "dt": "../img/prefecture/furn3.png",
+      "a": "#",
+      "des": "华为随行WiFi Pro ",
+      "favorable": "行天下 网随行",
+      "price": "￥799"
+    },
+    {
+      "dt": "../img/prefecture/furn4.png",
+      "a": "#",
+      "des": " 华为WS832 1200M 无线路由器",
+      "favorable": " 海思双核CPU 更快 更稳",
+      "price": "￥249"
+    },
+    {
+      "dt": "../img/prefecture/furn5.png",
+      "a": "#",
+      "des": "华为WS331c 300M 无线扩展器 ",
+      "favorable": " 体型小巧 简单易用 ",
+      "price": "￥199"
+    },
+    {
+      "dt": "../img/prefecture/furn6.png",
+      "a": "#",
+      "des": "华为WS550 450M无线路由器 ",
+      "favorable": " 智能管理 安全上网",
+      "price": "￥169"
+    },
+    {
+      "dt": "../img/prefecture/furn7.png",
+      "a": "#",
+      "des": "华为PT500 500M 电力线适配器",
+      "favorable": " 即插即用",
+      "price": "￥138"
+    }
+  ]
+}

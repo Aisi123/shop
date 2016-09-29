@@ -1,0 +1,25 @@
+{
+  "_data": [
+    {
+      "a": "/product/3419.html#8557",
+      "img": "../img/prefecture/rec1.jpg",
+      "title": "HUAWEI P9 Plus",
+      "des": "一上手 就爱不释手",
+      "price": "￥3988"
+    },
+    {
+      "a": "/product/2647.html",
+      "img": "../img/prefecture/rec2.png",
+      "title": "HUAWEI Mate 8",
+      "des": "高性能与长导航的结合",
+      "price": "￥2799"
+    },
+    {
+      "a": "#",
+      "img": "../img/prefecture/rec3.jpg",
+      "title": "HUAWEI G9 青春版",
+      "des": "溢于言表",
+      "price": "￥1599"
+    }
+  ]
+}

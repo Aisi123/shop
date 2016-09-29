@@ -1,0 +1,179 @@
+.wrap{width:1200px;margin:0 auto;}
+.f12{font-size: 12px;}
+/*----------------------top-----------------------------------------------------*/
+#top{width:100%;height:29px;height:29px;background:#fafafa;}
+#top .wrap #ul1{width:450px;height:29px;background:#fafafa;float: left;}
+#top .wrap #ul1 li{float: left;padding: 0 10px;line-height: 29px;background: url(../img/homepage/bg1.png) no-repeat right center;}
+#top .wrap #ul1 li a{color:#caa5a5;}
+#top .wrap #ul1 li a:hover{color: red;}
+#top .wrap #ul1 .first {padding-left: 0;}
+#top .wrap #ul1 .last{background: none;}
+#top .wrap #ul1 .sele{width:63px;background: none;position: relative;}
+#top .wrap #ul1 .sele img{position: absolute;top:9px;right:0;}
+#top .wrap #ul1 .sele p{position: relative;}
+#top .wrap #ul1 .sele p img{position: absolute;top:12px;}
+#top .wrap #ul1 .sele div{width: 63px;overflow: hidden;background:#fff;position: absolute;left:0;padding:0 10px;top:29px;display: none;}
+#top .wrap #ul1 .sele div span{display: block;line-height: 20px;}
+#top .wrap #ul2 a{color:#caa5a5; }
+#top .wrap #ul2	a:hover{color: red;}
+#top .wrap #ul2{width:375px;height:29px;float: right;}
+#top .wrap #ul2 li{float: left;padding: 0 10px;line-height: 29px;background: url(../img/homepage/bg1.png) no-repeat right center;}
+#top .wrap #ul2 .last{width: 65px;background: none;position: relative;}
+#top .wrap #ul2 .last p{position: relative;}
+#top .wrap #ul2 .last p img{position: absolute;top:12px;right:0;}
+#top .wrap #ul2 .last div{width: 65px;height:0;overflow: hidden;background:#fff;position: absolute;left:0;padding:0 10px;}
+#top .wrap #ul2 .last div span{display: block;line-height: 25px;}
+/*----------------------header-----------------------------------------------------*/
+#header{width:100%;height:118px;background:#fff;}
+#header .wrap {position: relative;}
+#header .wrap .homepage{font-size:16px;color:#000;position: absolute;left:170px;top:50px;}
+#header .wrap .homepage:hover{text-decoration: underline;}
+#header .wrap .head_left img{position: absolute;top:45px;display: block;float: left;}
+#header .wrap .center{width:640px;height:118px;margin-left:340px;background: #fff;position: relative;float: left;}
+#header .wrap .center input{width:348px;height:28px;border: 2px solid #ca141d;float: left;position: absolute;top:44px;padding-left:15px;border-right: 0;}
+#header .wrap .center button{border:0;width:64px;height:34px;background: #ca141d ;font-size:12px;color:white;position: absolute;top:44px;left:366px;}
+#header .wrap .center .hot{width:380px;height:24px;line-height: 24px;font-size:12px;position: absolute;top:78px;}
+#header .wrap .center .hot a{margin-right:15px;color: #999;}
+#header .wrap .center .hot a:hover{color: red;text-decoration: underline;}
+#header .wrap .center #shopCity{border: 1px solid gray;color:#333;position: absolute;top:44px;right: 0;font-size:12px;width:198px;height: 32px;background: url(../img/homepage/bg1.png) no-repeat 99px center;}
+.center #shopCity a{color: #333;}
+.center #shopCity a:hover{color: red;text-decoration: underline;}
+.center #shopCity .left{position:relative;width:98px;height:32px;text-align: center;line-height:32px;float: left;}
+.center #shopCity .left img{position: absolute;left:80px;top:16px;}
+.center #shopCity .right{position:relative;width:98px;height:32px;text-align: center;line-height:32px;float: right;}
+.center #shopCity .right .t{position: absolute;left:80px;top:16px;}
+.center #shopCity .left div{width:198px;height:260px;border: 1px solid gray;border-top:none;position: absolute;left:-1px;top:32px;display: none;background: #fff;}
+.center #shopCity .left div p{text-align: center;line-height:40px;width:198px;height:40px;border-bottom:1px solid gray;background: url(../img/homepage/bg1.png) no-repeat 131px center}
+.center #shopCity .left div p a{color:color: #333;margin-right:10px}
+.center #shopCity .left div p #a1{margin-left: 30px;}
+.center #shopCity .left div li{width:198px;height:50px;line-height:50px;list-style: none;background: url(../img/homepage/bg1.png) no-repeat 100px center}
+.center #shopCity .left div #L6{text-align: left;padding-left: 35px;}
+.center #shopCity .left div li a{display: inline-block;padding:0 15px;}
+.center #shopCity .left div img{position: absolute;top:190px;left:10px;}
+.center #shopCity .right #shoppingcar{width:465px;height:193px;min-height: 105px;border: 1px solid gray;border-top:none;position: absolute;right:-1px;top:32px;background:#fff; display: none;}
+.center #shopCity .right #shoppingcar #goodsPic{width:78px;height:78px;margin:20px 0 0 20px;float: left;}
+.center #shopCity .right #shoppingcar #goodsTitle{width:280px;height:30px;margin:20px 0 0 26px;float:left;line-height:18px; }
+.center #shopCity .right #shoppingcar #goodsPrice{width:267px;height:15px;color:red;margin-top: 25px;}
+.center #shopCity .right #shoppingcar #lookCar{width:425px;height:74px;margin-top:50px;float:left;text-align: left;}
+.center #shopCity .right #shoppingcar #lookCar #count{background:#e01d20;margin-top: 20px;} 
+.center #shopCity .right #shoppingcar #lookCar #count a{color: #fff;}
+
+#header .wrap #head_right{width:98px;height: 100px;float: right;margin-top: 18px;}
+#header .wrap #head_right p{font-size: 10px;float: left;}
+#header .wrap #head_right img{float: left;}
+#header .wrap #head_right #head_btn1, #head_btn2{float:right;margin-right:5px;margin-top:10px;width: 8px;height:8px;border-radius: 5px;background: #888;}
+/*--------------------------nav--------------------------------------------*/
+#nav-main{width:100%;height:40px;background:#333;margin-bottom:10px;}
+#nav-main .wrap ul{width:1200px;height:40px;line-height:40px;color: #fff;font-size:15px;font-weight: 600}
+#nav-main .wrap ul li{float: left;}
+#nav-main .wrap ul li a{display: block;background: #333;color: #fff;padding: 0 30px;}
+#nav-main .wrap ul li a:hover{background: #000;}
+#nav-main .wrap ul .one{position: relative;}
+#nav-main .wrap ul .one img{position: absolute;top:-8px;left:45px;}
+#nav-main .wrap ul .two{position: relative;}
+#nav-main .wrap ul .two img{position: absolute;top:-8px;left:40px;}
+#nav-main .wrap ul .three{position: relative;}
+#nav-main .wrap ul .three img{position: absolute;top:-8px;left:90px;}
+#nav-main .wrap ul .four{position: relative;}
+#nav-main .wrap ul .four img{position: absolute;top:-8px;left:80px;}
+#nav-main .wrap ul .first{width:225px;background: #c81118 url(../img/homepage/navli1.jpg)  no-repeat 200px center;padding-left:15px;position: relative;}
+#nav-main .wrap ul .first .left{width:240px;height:448px;position: absolute;top:40px;left:0px;display: none;z-index: 50;}
+#nav-main .wrap ul .first .right{width:205px;padding-left:20px;height:448px;background:#f7f7f7;position: absolute;top:40px;left:240px;display: none;z-index: 50}
+ #nav-main .wrap ul #nav_left dl{width:225px;height:54px;padding:10px 0 0 15px;position: relative;background: url(../img/glory8/em.jpg)}
+ #nav-main .wrap ul #nav_left dl dt{width:224px;color: #3a3a3a;height:22px;line-height:22px;font-size: 14px;font-family:Arial;}
+ #nav-main .wrap ul #nav_left dl dt a{color: #fff;background:none;padding:0;}
+ #nav-main .wrap ul #nav_left a:hover{color: red;text-decoration: underline;background:0;}
+ #nav-main .wrap ul #nav_left dl dd{width:225px;height:24px;line-height:24px;}
+ #nav-main .wrap ul #nav_left dl dd a{color: #888;font-size: 12px;margin-right:7px;display:inline;background:none;padding:0 ;}
+ #nav-main .wrap ul #nav_left dl dd a:hover{color: red;text-decoration: underline;background:0;}
+ #nav-main .wrap ul #nav_right a{color:#000;font-size:12px;margin:0;background:none;display: block;width:184px;padding:0;height:40px;line-height: 40px;}
+ #nav-main .wrap ul #nav_right a:hover{color:red;text-decoration: underline;background:#eeeeee;}
+ #nav-main .wrap ul .last {width:143px;height:40px;position: relative;}
+#nav-main .wrap ul .last a{display:block;background:url(../img/homepage/navli1.jpg)  no-repeat 100px center;}
+#nav-main .wrap ul .last a:hover{display:block;background:#000 url(../img/homepage/navli2.jpg)  no-repeat 100px center;}
+#nav-main .wrap ul .last #Nav_last{width:143px;height:140px;position: absolute;top:40px;left:0;background:#fff;text-align:center;display: none;}
+#nav-main .wrap ul .last #Nav_last li{width:143px;height:33px;line-height:33px;font-weight: 400}
+#nav-main .wrap ul .last #Nav_last li a{background:none;color:#3a3a3a ;}
+
+/*--------------------------des--------------------------------------------*/
+#des{width:100%;height:19px;background:#fff;margin-bottom: 10px;}
+#des .wrap{width:1200px;height:17px;padding-top:2px;}
+#des .wrap a{color: #7a7aa3;}
+#des .wrap a:hover{text-decoration: underline;}
+/*--------------------------product--------------------------------------------*/
+#product{width:100%;height:718px;background:#fff;}
+#product .wrap{width:1198;height:716px;border: 1px solid #dedede;overflow: hidden;}
+#product .wrap .left{width:540px;height:716px;border-right:1px solid #dedede;float: left;position: relative;}
+#product .wrap .left #floatbox{width:240px;height:240px;position: absolute;display: none;background: #ffffcc;border: 1px solid #ccc;filter: alpha(opacity=50);opacity: 0.5;cursor: move;}
+#product .wrap .left #smallbox{width:480px;height: 480px;margin:0 auto;margin-top:68px;position: relative;z-index: 1;}
+#product .wrap .left #bigbox{width:400px;height: 400px;display: none;position: absolute;top:68px;left:480px;overflow: hidden;border:1px solid #ccc;z-index: 1;}
+#product .wrap .left #bigbox img{position: absolute;z-index: 5;}
+#product .wrap .left #sele{width:540px;height: 70px;margin-top:98px;}
+#product .wrap .left #sele .left{width:55px;height:70px;border: none;float:left;background: url(../img/glory8/left.jpg) no-repeat center}#product .wrap .left #sele .left:hover{border:none;}
+#product .wrap .left #sele #show{width:430px;height:70px;float:left;position: relative;overflow: hidden;}
+#product .wrap .left #sele #show ul{width:990px;height:70px;position: absolute;}
+#product .wrap .left #sele #show ul li{float:left;margin-right:20px;width:68px;height:68px;border: 1px solid #d2d2d2;text-align: center;}
+#product .wrap .left #sele #show ul li:hover{border: 3px solid #eb8d91;width:64px;height:64px;}
+#product .wrap .left #sele #show ul li img{width:64px;height:64px;display:inline-block;vertical-align:middle;}
+#product .wrap .left #sele #show ul li span{display:inline-block;text-align:center;vertical-align:middle;height:100%;width:0;}
+#product .wrap .left #sele .right{width:55px;height:70px;border: none;background: url(../img/glory8/right.jpg) no-repeat center}
+#product .wrap .right{width:657px;height:716px;border-right:1px solid #dedede;float: left;}
+#product .wrap .right .top{width:597px;height:65px;border-bottom: 1px solid #dedede;padding: 35px 30px 0 30px;}
+#product .wrap .right .top h1{font-size:20px;line-height:30px;font-weight: normal;}
+#product .wrap .right .top h2{font-size:16px;line-height:34px;font-weight: normal;color: #e01d20;}
+#product .wrap .right .center{width:597px;height:170px;border-bottom:1px solid #dedede;padding:12px 30px 0 30px;}
+#product .wrap .right .center h2{width:597px;font-weight: normal;color: #e01d20;}
+#product .wrap .right .center h2 span{font-size:12px;color:#333;}
+#product .wrap .right .center h2 #phoneshop{display:block;width:70px;height:13px;font-size:12px;color:#333;float: right;background: url(../img/glory8/icon_code.jpg) no-repeat 50px center;position: relative;}
+#product .wrap .right .center h2 #phoneshop img{position:absolute;left:-10px;top:-90px;display: none;}
+#product .wrap .right .center h5{font-weight: normal;font-size: 12px;height:22px;line-height: 22px;color: #e41d20}
+#product .wrap .right .center h5 a{color: #e41d20}
+#product .wrap .right .center h5 a:hover{text-decoration:underline;}
+#product .wrap .right .center h3{font-size: 12px;color:#333;font-weight: normal;height:22px;line-height:22px;}
+#product .wrap .right .center h4{font-size: 12px;font-weight: normal;color: #333;height:22px;line-height: 22px;}
+#product .wrap .right .center h3 span{font-size: 12px;color: #e41d20}
+#product .wrap .right .bottom{width:597px;height:471px;padding:10px 30px;}
+#product .wrap .right .bottom #imglist{width:597px;height:71px;}
+#product .wrap .right .bottom #imglist h2{width:60px;font-size: 12px;color: #333;float: left;margin-top:20px;font-weight: normal;}
+#product .wrap .right .bottom #imglist dl{float: left;margin-right:5px;text-align: center;}
+#product .wrap .right .bottom #imglist dt{border: 1px solid #b2b2b2;width:40px;height:40px;position: relative;}
+#product .wrap .right .bottom #imglist dt:hover{border: 1px solid #e01e21}
+#product .wrap .right .bottom #imglist dd{color: #333;font-size: 12px;}
+#product .wrap .right .bottom  h6{font-size:12px;height:26px;width:597px;}
+#product .wrap .right .bottom  h6 span{display: block;width:55px;height:26px;float: left;margin-top:5px;}
+#product .wrap .right .bottom  button{border: 1px solid #b2b2b2;margin-right:10px;cursor: pointer;}
+#product .wrap .right .bottom  h6 .btn1{width:64px;height:24px;text-align: center;position: relative;}
+#product .wrap .right .bottom  h6 .btn2{width:81px;height:24px;text-align: center;position: relative;}
+#product .wrap .right .bottom p {width:597px;height:26px;font-size:12px;margin-top:10px;}
+#product .wrap .right .bottom p .btn3{width:80px;height:24px;text-align: center;margin-left:11px;position: relative;}
+#product .wrap .right .bottom p .btn4{width:80px;height:24px;text-align: center;position: relative;}
+#product .wrap .right .bottom p .btn5{width:80px;height:24px;text-align: center;margin-left:11px;position: relative;}
+#product .wrap .right .bottom p .btn6{width:160px;height:24px;text-align: center;position: relative;}
+#product .wrap .right .bottom p .btn7{width:80px;height:24px;text-align: center;position: relative;} 
+
+#product .wrap .right .bottom p .btn8{width:290px;height:24px;text-align: center;margin-left:11px;position: relative;background: url(../img/glory8/arrow1.jpg) no-repeat 270px center;} 
+#product .wrap .right .bottom p .btn81{width:290px;height:24px;text-align: center;background:#fff;position: absolute;left:-2px;top:23px;display:none;border: 1px solid #b2b2b2;line-height:24px;height:24px;} 
+#product .wrap .right .bottom p a{margin-left:20px;color:#7368d4;}
+#product .wrap .right .bottom p .btn9{width:56px;height:24px;margin-left:11px;}
+#product .wrap .right .bottom p .btn10{width:86px;height:24px;}
+#product .wrap .right .bottom p .btn11{width:70px;height:24px;}
+#product .wrap .right .bottom p .btn12{width:88px;height:24px;}
+#product .wrap .right .bottom p #sub{width:24px;height: 24px;margin-left:11px;border: 1px solid #b2b2b2;background: none;margin-right:6px;cursor: pointer;}
+#product .wrap .right .bottom p #num{width:43px;height:24px;background: none;margin-right: 6px;text-align: center;border: 1px solid #b2b2b2;}
+#product .wrap .right .bottom p #add{width:24px;height:24px;background: none;border: 1px solid #b2b2b2;cursor: pointer;}
+#product .wrap .right .bottom .p1{margin-top:35px;}
+#product .wrap .right .bottom .p1 span{font-size:12px;color:#e01d20;}
+#product .wrap .right .bottom #addShopCar{width:190px;height:42px;margin-right:20px;color: #fff;font-size:20px;background:#e01d20 url(../img/glory8/shopcar.jpg) no-repeat 20px center;position: relative;}
+#product .wrap .right .bottom .sup{width:428px;height:198px;border: 1px solid #d2d2d2;bottom:0px;left:800px;position: absolute;z-index: 10000;opacity:1;text-align: left;display: none;}
+#product .wrap .right .bottom .sup .sub{width:428px;height:198px;background: #f2f2f2;position: relative;}
+#product .wrap .right .bottom .sup .sub img{position: absolute;left:30px;top:30px;}
+#product .wrap .right .bottom .sup .sub h2{position: absolute;top:35px;left:132px;font-size:12px;color: #333;}
+#product .wrap .right .bottom .sup .sub h6{position: absolute;top:54px;left:132px;font-size: 20px;color: #8cbd54}
+#product .wrap .right .bottom .sup .sub h5{position: absolute;left:132px;top:107px;font-size: 12px;color: #333}
+#product .wrap .right .bottom .sup .sub h5 span{color: red;background: red}
+#product .wrap .right .bottom .sup .sub #shopcity{display:block;width:120px;height:37px;text-align:center;line-height:37px;background: #e01d20;color: #fff;position: absolute;top:130px;left:130px;}
+#product .wrap .right .bottom .sup .sub #back{width:120px;height:37px;background: #eaeaea;color: #000;position: absolute;left:260px;top:130px;}
+#product .wrap .right .bottom .sup .sub #cancel{width:20px;height:20px;background: none;border: none;font-size: 20px;position: absolute;top:0;right:0;}
+#product .wrap .right .bottom #oder{width:190px;height:42px;background: #ff5c14;color: #fff;font-size:20px;} 
+
+/*--------------------------prodes--------------------------------------------*/
